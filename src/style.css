@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: Poppins;
+}
+.header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+
+}
+.header-img{
+    padding: 24px;
+    width: 100px;
+    height: 100px;
+}
+.left-title{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.right-title{
+    font-weight: 400;
+}
+.left-title, .right-title{
+    margin: 0 12px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.top,.bottom{
+    margin: 24px;
+    padding: 12px;
+    border: 1px solid #D5D4D8;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newImg{
+    padding: 12px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    width: 30vw;
+    margin: 24px;
+    border: none;
+
+}
+.newImg,.top,.bottom{
+    border-radius: 3px;
+}
+.memeImg{
+    max-width: 100%;
+  
+}
+.meme{
+    position: relative;
+}
+.memeText {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin:  15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+    border: none;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
